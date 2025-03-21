@@ -1,9 +1,130 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="SQJYU2kaWPYq4UUh73XX">
-    <mxGraphModel>
+    <mxGraphModel dx="1910" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-3" target="Ga71uPT0qrIklzLoXrVR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-6" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ga71uPT0qrIklzLoXrVR-5">
+          <mxGeometry x="-0.01" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-3" target="Ga71uPT0qrIklzLoXrVR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-3" value="STM32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-4" value="QCA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-8" value="Internal RD/WR Buffer 삭제&lt;div&gt;Data Flow SPI IF 단일화&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-13" target="Ga71uPT0qrIklzLoXrVR-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;startArrow=classic;startFill=0;endArrow=none;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-13" target="Ga71uPT0qrIklzLoXrVR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="635" />
+              <mxPoint x="470" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-13" value="SPI Net Inteface&lt;br&gt;&amp;lt; Task &amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="610" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-19" target="Ga71uPT0qrIklzLoXrVR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-23" value="HomePlug GP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ga71uPT0qrIklzLoXrVR-22">
+          <mxGeometry x="-0.677" y="-2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-19" target="Ga71uPT0qrIklzLoXrVR-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-26" value="IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ga71uPT0qrIklzLoXrVR-25">
+          <mxGeometry x="-0.6186" y="2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-19" value="ETH Type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=arrow;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-21" target="Ga71uPT0qrIklzLoXrVR-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-21" value="SLAC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-27" target="Ga71uPT0qrIklzLoXrVR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-34" value="UDP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ga71uPT0qrIklzLoXrVR-30">
+          <mxGeometry x="-0.6309" y="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-27" target="Ga71uPT0qrIklzLoXrVR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-27" value="Transport Protocol" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="860" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-29" value="SDP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-32" target="Ga71uPT0qrIklzLoXrVR-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-32" value="TCP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-35" target="Ga71uPT0qrIklzLoXrVR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-35" value="V2GTP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-37" target="Ga71uPT0qrIklzLoXrVR-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-37" value="EXI Parser" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=arrow;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-39" target="Ga71uPT0qrIklzLoXrVR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-39" value="V2G" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-41" value="MME&lt;div&gt;Parser&lt;/div&gt;&lt;div&gt;SLAC Protocol&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="820" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-43" value="ISO15118&lt;br&gt;Parser&lt;br&gt;AC, DC" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1355" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-45" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-21" target="Ga71uPT0qrIklzLoXrVR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="840" as="sourcePoint" />
+            <mxPoint x="230" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="900" />
+              <mxPoint x="90" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
