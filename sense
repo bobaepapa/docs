@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
   <diagram name="Page-1" id="SQJYU2kaWPYq4UUh73XX">
-    <mxGraphModel dx="2037" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,14 +136,23 @@
         <mxCell id="Y6eRf5uFbRSrQNN4bAyz-2" value="&lt;div&gt;LWIP:&amp;nbsp; HPGP 을 지원하지 않는다.&lt;/div&gt;Raw Callback or Socket&lt;div&gt;- 멀티플렉싱 필요성? 아직은 없음&lt;/div&gt;&lt;div&gt;- IPv6&amp;nbsp; 적응 시간 필요&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="465" y="560" width="325" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="kEO76yesVObXrRopiYDj-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="kEO76yesVObXrRopiYDj-1" target="kEO76yesVObXrRopiYDj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kEO76yesVObXrRopiYDj-1" value="SLAC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kEO76yesVObXrRopiYDj-2" value="HPGP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="1550" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kEO76yesVObXrRopiYDj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="kEO76yesVObXrRopiYDj-4" target="kEO76yesVObXrRopiYDj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kEO76yesVObXrRopiYDj-4" value="MME" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-620" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kEO76yesVObXrRopiYDj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="kEO76yesVObXrRopiYDj-5" target="kEO76yesVObXrRopiYDj-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kEO76yesVObXrRopiYDj-5" value="Vendor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-440" y="1360" width="120" height="60" as="geometry" />
