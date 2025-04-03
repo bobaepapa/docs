@@ -19,10 +19,10 @@
           <mxGeometry x="240" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ga71uPT0qrIklzLoXrVR-4" value="QCA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ga71uPT0qrIklzLoXrVR-8" value="Internal RD/WR Buffer 삭제&lt;div&gt;Data Flow SPI IF 단일화&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="520" y="370" width="200" height="80" as="geometry" />
+        <mxCell id="Ga71uPT0qrIklzLoXrVR-8" value="Internal RD/WR Buffer 삭제&lt;div&gt;Data Flow SPI IF 단일화&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;position2=0.6;" parent="1" vertex="1">
+          <mxGeometry x="380" y="330" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ga71uPT0qrIklzLoXrVR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="Ga71uPT0qrIklzLoXrVR-13" target="Ga71uPT0qrIklzLoXrVR-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -89,8 +89,8 @@
         <mxCell id="Ga71uPT0qrIklzLoXrVR-43" value="OpenV2G&lt;div&gt;LGPLv3&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="195" y="1235" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Y6eRf5uFbRSrQNN4bAyz-2" value="&lt;div&gt;LWIP:&amp;nbsp; HPGP 을 지원하지 않는다.&lt;/div&gt;Raw Callback or Socket&lt;div&gt;- 멀티플렉싱 필요성? 아직은 없음&lt;/div&gt;&lt;div&gt;- IPv6&amp;nbsp; 적응 시간 필요&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="390" y="880" width="325" height="100" as="geometry" />
+        <mxCell id="Y6eRf5uFbRSrQNN4bAyz-2" value="&lt;div&gt;LWIP:&amp;nbsp; HPGP 을 지원하지 않는다.&lt;/div&gt;Raw Callback or Socket&lt;div&gt;- 멀티플렉싱 필요성? 아직은 없음&lt;/div&gt;&lt;div&gt;- IPv6&amp;nbsp; 적응 시간 필요&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;position2=0.63;" parent="1" vertex="1">
+          <mxGeometry x="250" y="850" width="325" height="110" as="geometry" />
         </mxCell>
         <mxCell id="kEO76yesVObXrRopiYDj-1" value="SLAC" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-500" y="900" width="120" height="60" as="geometry" />
