@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="SQJYU2kaWPYq4UUh73XX">
-    <mxGraphModel dx="2213" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2616" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,10 +34,10 @@
             <mxPoint x="-20" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HvLVCCgwnfvCLMqamzpH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-13" target="8Y8QdglsjEjLsoegROsO-4">
+        <mxCell id="HvLVCCgwnfvCLMqamzpH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="Ga71uPT0qrIklzLoXrVR-13" target="8Y8QdglsjEjLsoegROsO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HvLVCCgwnfvCLMqamzpH-7" value="HPGP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvLVCCgwnfvCLMqamzpH-6">
+        <mxCell id="HvLVCCgwnfvCLMqamzpH-7" value="HPGP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvLVCCgwnfvCLMqamzpH-6" vertex="1" connectable="0">
           <mxGeometry x="-0.4534" relative="1" as="geometry">
             <mxPoint x="-22" y="-15" as="offset" />
           </mxGeometry>
@@ -51,10 +51,10 @@
         <mxCell id="Ga71uPT0qrIklzLoXrVR-21" value="HPGP" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="900" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HvLVCCgwnfvCLMqamzpH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-27" target="Ga71uPT0qrIklzLoXrVR-29">
+        <mxCell id="HvLVCCgwnfvCLMqamzpH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="Ga71uPT0qrIklzLoXrVR-27" target="Ga71uPT0qrIklzLoXrVR-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HvLVCCgwnfvCLMqamzpH-11" value="UDP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvLVCCgwnfvCLMqamzpH-10">
+        <mxCell id="HvLVCCgwnfvCLMqamzpH-11" value="UDP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvLVCCgwnfvCLMqamzpH-10" vertex="1" connectable="0">
           <mxGeometry x="0.1844" y="3" relative="1" as="geometry">
             <mxPoint x="-9" y="-7" as="offset" />
           </mxGeometry>
@@ -82,9 +82,6 @@
         </mxCell>
         <mxCell id="Ga71uPT0qrIklzLoXrVR-43" value="OpenV2G&lt;div&gt;LGPLv3&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="195" y="1235" width="150" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="Y6eRf5uFbRSrQNN4bAyz-2" value="&lt;div&gt;LWIP:&amp;nbsp; HPGP 을 지원하지 않는다.&lt;/div&gt;Raw Callback or Socket&lt;div&gt;- 멀티플렉싱 필요성? 아직은 없음&lt;/div&gt;&lt;div&gt;- IPv6&amp;nbsp; 적응 시간 필요&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;position2=0.63;" parent="1" vertex="1">
-          <mxGeometry x="250" y="850" width="325" height="110" as="geometry" />
         </mxCell>
         <mxCell id="kEO76yesVObXrRopiYDj-1" value="SLAC" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-500" y="900" width="120" height="60" as="geometry" />
@@ -121,10 +118,10 @@
         <mxCell id="8Y8QdglsjEjLsoegROsO-13" value="EVSE" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-60" y="890" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HvLVCCgwnfvCLMqamzpH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Ga71uPT0qrIklzLoXrVR-27" target="8Y8QdglsjEjLsoegROsO-4">
+        <mxCell id="HvLVCCgwnfvCLMqamzpH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="Ga71uPT0qrIklzLoXrVR-27" target="8Y8QdglsjEjLsoegROsO-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HvLVCCgwnfvCLMqamzpH-5" value="TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvLVCCgwnfvCLMqamzpH-2">
+        <mxCell id="HvLVCCgwnfvCLMqamzpH-5" value="TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HvLVCCgwnfvCLMqamzpH-2" vertex="1" connectable="0">
           <mxGeometry x="-0.1832" relative="1" as="geometry">
             <mxPoint x="3" y="-10" as="offset" />
           </mxGeometry>
