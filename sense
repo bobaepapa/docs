@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Page-1" id="SQJYU2kaWPYq4UUh73XX">
-    <mxGraphModel dx="2616" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,6 +125,33 @@
           <mxGeometry x="-0.1832" relative="1" as="geometry">
             <mxPoint x="3" y="-10" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZrJXg6zeRCX-BbYYcpV-1" target="FZrJXg6zeRCX-BbYYcpV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-1" value="main&lt;br&gt;FreeRTOS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-4" value="EVSE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-6" value="Bridge" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-8" value="SDP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1860" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-10" value="V2G" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-11" value="VAS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="2040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-12" value="TCP/IP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZrJXg6zeRCX-BbYYcpV-13" value="QCA" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1530" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
